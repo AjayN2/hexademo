@@ -1,0 +1,68 @@
+git init
+vi test.txt
+ls
+git status
+git add test.txt
+git status
+git commit -m "First Commit"
+git status
+vi test1.txt
+git add .
+git status
+git diff
+git diff --cached
+git commit -m "Second Commit"
+git config --global user.name "<username>"
+git config --global user.email "<hexaware email id>"
+git branch
+git branch -b my_new_branch
+git checkout -b my_new_branch
+git branch
+git checkout
+git checkout master
+git checkout my_new_branch
+git remote add origin https://github.com/<username>/<repo_name.git>
+git push -u origin master
+git push origin my_new_branch
+git push origin my_new_branch
+git checkout master
+git diff
+git diff --cached
+git diff my_new_branch
+vi test.txt
+git status
+git add .
+git diff
+git diff --cached
+git diff my_new_branch
+git checkout my_new_branch
+vi test.txt
+git diff
+git add .
+git diff master
+git commit -m "commit in branch"
+git diff master
+git checkout master
+git commit -m "commit in master"
+git diff my_new_branch
+git checkout my_new_branch
+vi test.txt
+vi test.txt
+git add .
+git commit -m "my_new_branch commit"
+git diff master
+git checkout master
+vi test.txt
+vi test.txt
+git commit -m "master commit"
+git diff my_new_branch
+vi test3.txt
+git add .
+git status
+git reset HEAD test3.txt
+git status
+git pull origin master
+git stash
+git add .
+git stash
+git stash pop
