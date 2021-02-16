@@ -1,0 +1,38 @@
+git diff HEAD
+git diff --staged
+git diff master 
+git diff HEAD and git status
+git diff --cached
+git diff and git status
+
+
+
+==============================================================
+mkdir gitdemo
+cd gitdemo
+mkdir gitsecond
+nano sample.txt
+git init(initialise directory)
+git branch -b <branch_name)
+git checkout -b new_branch
+git status
+git add .(to put files in temperary area)
+git commit -m "first commit"
+git diff
+git diff --stached
+vi sample.txt(add something new)
+git add .
+git diff
+git diff --cached
+git commit -m "Second Commit"
+git checkout master
+vi simple.txt(add something new)
+git diff new_branch
+git checkout new_branch
+git status
+git add .
+git checkout -b master
+git checkout master
+git diff new_branch
+git commit -m "Addition Commit"
+git diff new_branch
